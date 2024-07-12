@@ -1,0 +1,76 @@
+:root {
+  --text-color: #333333;
+  --white: #fff;
+  --orange: #fcb045;
+  --facebook-color: #1877f2;
+  --linkedin-color: #0a66c2;
+  --instagram-color: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+  --shadow-color: #5f6769;
+}
+.header-album {
+  background-image: url(./album/for-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 20rem;
+}
+
+h3 {
+  text-transform: capitalize;
+}
+
+.my-collection li {
+  list-style-type: circle;
+}
+.my-collection a {
+  color: green;
+}
+.my-collection a:hover {
+  color: var(--orange);
+  text-decoration: none;
+}
+.header-album .quote-wrapper {
+  text-align: center;
+  position: relative;
+  top: 5rem;
+  color: var(--orange);
+  font-family: cursive, sans-serif;
+  font-size: 1rem;
+}
+
+.album-photo img {
+  width: 10rem;
+  height: 7rem;
+}
+
+.gallery-photos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* FOR MOBILE */
+
+@media (max-width: 480px) {
+  .header-album .quote-wrapper {
+    position: relative;
+    top: 10rem;
+    font-size: 80%;
+  }
+
+  .header-album {
+    background-size: contain;
+  }
+}
+
+/* THE VIDEOS*/
+.funny-videos {
+  border: 1px solid var(--orange);
+  width: 80%;
+  margin: auto;
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}

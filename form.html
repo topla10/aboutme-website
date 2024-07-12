@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tryThis</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles2.css" />
+    <link rel="stylesheet" href="styles4.css" />
+    <script
+      src="https://kit.fontawesome.com/89fa4fdab6.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav id="nav-bar2">
+      <ul id="first-ul">
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="about.html">About me</a>
+        </li>
+        <li>
+          <a href="form.html" style="color: #fff">Form</a>
+        </li>
+        <li>
+          <a href="album.html">Album</a>
+        </li>
+      </ul>
+    </nav>
+
+    <main>
+      <form action="">
+        <label for="first-name" class="personal-info-label">First name</label>
+        <br />
+        <input
+          class="input-text"
+          type="text"
+          id="first-name"
+          name="first"
+          placeholder="Your first name"
+          required
+        />
+        
+        <br />
+
+        <label for="last-name" class="personal-info-label">Last name</label>
+        <br />
+        <input
+          class="input-text"
+          type="text"
+          id="last-name"
+          name="last"
+          placeholder="Your last name"
+          required
+        />
+        <br />
+
+        <label for="email" class="personal-info-label">Email</label> <br />
+        <input
+          class="input-text"
+          type="email"
+          id="email"
+          name="mail"
+          placeholder="name@example.com"
+          required
+        />
+        <br />
+        <label for="age" class="personal-info-label">Age</label> <br />
+        <input
+          class="input-text"
+          type="number"
+          id="age"
+          name="how-old"
+          min="1"
+        />
+        <br />
+
+        <p class="question">How did you learn Programming?</p>
+        <div class="wrapper-radio-buttons">
+          <div class="radio-child">
+            <input
+              type="radio"
+              id="self-learning"
+              name="learning-method"
+              value="Self learning"
+              class="label-radio-button"
+            />
+            <label for="self-learning">Self Learning</label>
+          </div>
+          <div class="radio-child">
+            <input
+              type="radio"
+              id="virtual"
+              name="learning-method"
+              value="Virtual Classes"
+              class="label-radio-button"
+            />
+            <label for="virtual">Virtual Classes</label>
+          </div>
+          <div class="radio-child">
+            <input
+              type="radio"
+              id="in-person"
+              name="learning-method"
+              value="In Person Classes"
+              class="label-radio-button"
+            />
+            <label for="in-person">In Person Classes</label>
+          </div>
+          <div class="radio-child">
+            <input type="radio"
+            id="mix"
+            name="learning-method"
+            value="Mix of All" class="label-radio-button">
+            </input>
+            <label for="mix">Mix of All</label>
+          </div> <br /> <br>
+        </div>
+
+        <label for="programming-lang" class="question"> What is your Favorite Programming Language?</label>
+        <select name="programming-lang" id="programming-lang">
+          <option value="select one" disabled selected>Select one</option>
+          <option value="python">Python</option>
+          <option value="javascript">Javascript</option>
+          <option value="c++">C++</option>
+          <option value="java">Java</option>
+          <option value="kotlin">Kotlin</option>
+          <option value="perl">Perl</option>
+          <option value="ruby">Ruby</option>
+          <option value="php">PHP</option>
+          <option value="go">GO</option>
+          <option value="sql">SQL</option>
+        </select>
+        <br />
+
+        <p class="question">What Language(s)  do you speak?</p>
+        <input type="checkbox" id="eng" name="eng" />
+        <label for="eng" value="english"> English </label> <br />
+
+        <input type="checkbox" id="spa" name="spa" />
+        <label for="spa" value="spanish"> Spanish </label> <br />
+
+        <input type="checkbox" id="fr" name="fr" />
+        <label for="fr" value="french"> French </label> <br />
+
+        <input type="checkbox" id="portuguese" name="portuguese" />
+        <label for="portuguese" value="portuguese"> Portuguese </label> <br />
+
+        <input type="checkbox" id="chin" name="chin" />
+        <label for="chin" value="chineese"> Chineese </label> <br />
+
+        <input type="checkbox" id="other" name="other" />
+        <label for="other" value="other"> Other </label> <br />
+        <br />
+
+        <label for="resume" class="question">Upload your résumé</label>
+        <input type="file" id="resume" name="resume" /> <br />
+        <br />
+
+        <label for="experience" class="question"
+          >Tell us about your experience in technology field</label
+        >
+        <br />
+        <textarea
+          name="experience"
+          id="experience"
+          cols="30"
+          rows="5"
+        ></textarea
+        ><br />
+
+        <div class="submit-button"><input type="submit" value="Submit" /></div>
+      </form>
+    </main>
+
+    <footer id="footer_section">
+      &copy;2024 All right reserved |
+      <a href="#">Privacy Policy</a> |
+      <a href="#">topla_10025@yahoo.com</a>
+
+      <div class="social-media-icon">
+        <a target="_blank" href="https://www.facebook.com"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+        <a target="_blank" href="https://www.linkedin.com"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a target="_blank" href="https://www.instagram.com"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a href="https://www.x.com" target="_blank"
+          ><i class="fa-brands fa-x-twitter"></i
+        ></a>
+      </div>
+      </footer>
+  </body>
+</html>
