@@ -1,0 +1,64 @@
+:root {
+  --text-color: #333333;
+  --white: #fff;
+  --orange: #fcb045;
+  --facebook-color: #1877f2;
+  --linkedin-color: #0a66c2;
+  --instagram-color: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+  --shadow-color: #5f6769;
+  --creme: #fff5ea;
+}
+
+form {
+  border: 2px solid var(--orange);
+  border-radius: 10px;
+  width: 70%;
+  margin: 1.3rem auto;
+  padding: 1.3rem;
+  background-color: var(--creme);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+  font: 1.25rem / 1.5 sans-serif;
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+}
+.wrapper-radio-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+input,
+select,
+textarea {
+  border: 1px solid var(--orange);
+  background-color: var(--white);
+  border-radius: 0.25rem;
+}
+
+.personal-info-label,
+.question {
+  font-weight: bold;
+}
+
+.submit-button {
+  text-align: center;
+}
+input[type="submit"] {
+  font-weight: bold;
+  font-size: large;
+  padding: 0.5rem;
+  text-transform: uppercase;
+}
+
+input[type="submit"]:hover {
+  background-color: var(--orange);
+  color: var(--white);
+}
